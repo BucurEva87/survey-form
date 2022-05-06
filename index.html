@@ -11,9 +11,14 @@
         <p id="description">Some description</p>
 
         <form action="" id="survey-form">
+            <label for="name" id="name-label">
+                Name
+            </label>
             <input type="text" name="name" id="name" required>
+            <label for="email" id="email-label">Email</label>
             <input type="email" id="email" name="email" required>
-            <input type="number" name="" id="number">
+            <label for="number" id="number-label">Number</label>
+            <input type="number" name="" id="number" min="5" max="10">
 
             
         </form>
